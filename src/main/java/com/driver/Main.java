@@ -13,7 +13,7 @@ public class Main {
     }
 
     public double product(double a,double b){
-      return a+b+c;
+      return a+b;
     }
   }
 
