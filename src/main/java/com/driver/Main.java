@@ -4,16 +4,16 @@ public class Main {
 
   public static class Product{
 
-    public int product(int a,int b){
-      return a+b;
+    public int product(int x,int y){
+      return x+y;
     }
 
-    public int product(int a,int b,int c){
-      return a+b+c;
+    public int product(int x,int y,int z){
+      return x+y+z;
     }
 
-    public double product(double a,double b){
-      return a+b;
+    public double product(double x,double y){
+      return x+y;
     }
   }
 
