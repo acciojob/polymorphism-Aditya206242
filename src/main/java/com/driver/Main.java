@@ -2,7 +2,7 @@ package com.driver;
 
 public class Main {
 
-  public class product{
+  public static class Product{
 
     public int product(int a,int b){
       return a+b;
@@ -19,10 +19,11 @@ public class Main {
 
   public static void main(String[] args ){
 
-    product p =new product();
+    Product p =new Product();
     System.out.println(p.product(5,10));
     System.out.println(p.product(5,10,15));
     System.out.println(p.product(5.1,10.1));
+
     
     
     
