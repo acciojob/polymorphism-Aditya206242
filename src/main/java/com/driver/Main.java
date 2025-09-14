@@ -12,7 +12,7 @@ public class Main {
       return a+b+c;
     }
 
-    public double product(int a,int b,int c){
+    public double product(double a,double b){
       return a+b+c;
     }
   }
@@ -22,7 +22,7 @@ public class Main {
     product p =new product();
     System.out.println(p.product(5,10));
     System.out.println(p.product(5,10,15));
-    System.out.println(p.product(5.1,10.1,15.1));
+    System.out.println(p.product(5.1,10.1));
     
     
     
